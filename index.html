@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lagn="es">
+  <head>
+    <title>AppDeGatos</title>
+  </head>
   <body>
-    <h2 >AppDeGatos</h2>
+    <h2 style="color: blueviolet">AppDeGatos</h2>
     <main>
       <h3>Imagenes de Gatos:</h3>
       <!-- TODO: Holaaaaaa -->
@@ -14,36 +17,45 @@
 
       <h3>Listas de gatos</h3>
 
-      <p><strong>Cosas que los gatos aman</strong>:🤑👌</p>
+      <div>
+        <p><strong>Cosas que los gatos aman</strong>:🤑👌</p>
 
-      <ul>
-        <li><em>Menta Gatuna (furro)</em> 😺 </li>
-        <li><em>Apuntadores Láser</em> 😼 </li>
-        <li><em><s>Ratas</s></em> 🥵🤙 </li>
-      </ul>
+        <ul>
+          <li><em>Menta Gatuna (furro)</em> 😺 </li>
+          <li><em>Apuntadores Láser</em> 😼 </li>
+          <li><em><s>Ratas</s></em> 🥵🤙 </li>
+        </ul>
 
-      <img src="ratas.jpg">
+        <img src="ratas.jpg">
 
-      <p><strong>Cosas que los gatos odian</strong>:😾 </p>
-      <ol>
-        <li>Tratamientos antipulgas 🤬 </li>
-        <li>Otros gatos 🐱 </li>
-        <li>Perros 🐺 </li>
-      </ol>
-
+        <p><strong>Cosas que los gatos odian</strong>:😾 </p>
+        <ol>
+          <li>Tratamientos antipulgas 🤬 </li>
+          <li>Otros gatos 🐱 </li>
+          <li>Perros 🐺 </li>
+        </ol>
+      </div>
       <img src="la paz nunca fue una opcion.jpg " width="500px">
 
       <form action="/enviar-respuesta">
-        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label>
+        <!--Botones de radio-->
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label><br>
 
-        <br>
-        
-        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label>
+        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label><br>
 
-        <input type="text" placeholder="URL del pana Miguel"required>
+        <!--Casillas de Verificación-->
+        <label for="cariñoso"><input id="cariñoso"type="checkbox" name="personalidad" checked><em>Cariñoso</em></label>
+        <label for="perezoso"><input id="perezoso"type="checkbox" name="personalidad"><em>Perezoso</em></label>
+        <label for="energico"><input id="energico"type="checkbox" name="personalidad"><em>Enérgico</em><br></label>
+
+        <!--Texto y Botón Enviar-->
+        <input type="text" placeholder="URL DEL PANA MIGUEL"required>
         <button tyep="submit">Enviar</button>
       </form>
-      
+
     </main>
+    <footer>
+      <p><small>Con Derechos de Autor - <a href="https://www.youtube.com/shorts/L07UaOjfBqs">Hunter_Chatita.org</a></small></p>
+    </footer>
   </body>
 </html>
