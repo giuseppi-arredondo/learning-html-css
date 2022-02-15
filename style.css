@@ -1,0 +1,21 @@
+#titulo-app-hunter {
+  font-size: 500px;
+  color: darkgreen;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#la-paz-nunca-fue-una-opcion {
+  border-radius: 30%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+}
+
+#lista-gatos-aman {
+  font-size: 15px;
+  color: green;
+}
+
+#lista-gatos-odian {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
